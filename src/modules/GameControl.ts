@@ -80,7 +80,7 @@ class GameControl{
         }
 
         //蛇还活着,就能继续往下走
-        this.isLive && setTimeout(this.run.bind(this), 300 - (this.scorePanel.level-1)*30)
+        this.isLive && setTimeout(this.run.bind(this), 300 - (this.scorePanel.level-1)*100)
     }
 
     // 定义一个方法, 用来检查蛇是否吃到了食物
